@@ -5,21 +5,21 @@ class Cltree < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/jsleemaster/cltree/releases/download/v0.2.2/cltree-macos-aarch64.tar.gz"
-      sha256 "a69eb79885833e0344125658a3010d4d52f6cdf6b74a06cd7a96ce9ac53dcb78"
+      url "https://github.com/jsleemaster/cltree/releases/download/v0.3.0/cltree-macos-aarch64.tar.gz"
+      sha256 "e0608a8268d5af4b2d221255345dd79a076fd5fdda2d0b8ed2f73d7e6b6ad194"
     else
-      url "https://github.com/jsleemaster/cltree/releases/download/v0.2.2/cltree-macos-x86_64.tar.gz"
-      sha256 "e565fc20eec5539012a2452df1d75762630b99f7a1825e150f32923f6acd0d99"
+      url "https://github.com/jsleemaster/cltree/releases/download/v0.3.0/cltree-macos-x86_64.tar.gz"
+      sha256 "17cbd9d17bc1410a6f34125f1254a3b3fdb0e5f206b0db15e2fdaca8f0c5ccaf"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/jsleemaster/cltree/releases/download/v0.2.2/cltree-linux-aarch64.tar.gz"
-      sha256 "d3a9f5f95bd745c58a584365ab09f8dffee788f7091ec6d407d50ba2a12df90c"
+      url "https://github.com/jsleemaster/cltree/releases/download/v0.3.0/cltree-linux-aarch64.tar.gz"
+      sha256 "1d76381b25a8d664a1fd2ea38bb79946ab2ecd5586a97993172b41f63a42d71c"
     else
-      url "https://github.com/jsleemaster/cltree/releases/download/v0.2.2/cltree-linux-x86_64.tar.gz"
-      sha256 "995458565b83429e5d223fb58e7a6e4aa412054ed93736de615463e6292d9d7e"
+      url "https://github.com/jsleemaster/cltree/releases/download/v0.3.0/cltree-linux-x86_64.tar.gz"
+      sha256 "07e20819ac34a31d310c7be99159ef2252600030115389f71cfa8fce7b73419c"
     end
   end
 
