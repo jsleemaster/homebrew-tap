@@ -7,20 +7,20 @@ class Peep < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/jsleemaster/peep/releases/download/v#{version}/peep-macos-arm64.tar.gz"
-      sha256 "d5f527aa197e88a84f47a12b6714f677731f1bd70625d8d02319866c4af6c03c"
+      sha256 "a4e459740c0628a186d1c825c71183c82ea23d0507dfc73f733a0c99215b0eca"
     else
       url "https://github.com/jsleemaster/peep/releases/download/v#{version}/peep-macos-intel.tar.gz"
-      sha256 "14d93ca4936b7d503083082b3c29c2b8c47da1dee3d0816e2afc1aa13746f01f"
+      sha256 "cfe52148988d57205b56f0958a319b8ec0d4c0775f5c58202e10b1175506ced0"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/jsleemaster/peep/releases/download/v#{version}/peep-linux-arm64.tar.gz"
-      sha256 "d26fc32fa84c10bf9b1b4070ae04c99bd2082a7d9679cbb974b9bf73c833c796"
+      sha256 "1f462e03e0f5156d452a6c356192076d2acd22af02579deeed3cb08fdfac5cfd"
     else
       url "https://github.com/jsleemaster/peep/releases/download/v#{version}/peep-linux-x86_64.tar.gz"
-      sha256 "d2614fcd4f9b02d118ec7014b25fb4822f70388b1560e2c30548a08a13580d0e"
+      sha256 "8c5c196847801f5747f67526ecf0635fad71c311987217feacb791a33dbd2c84"
     end
   end
 
