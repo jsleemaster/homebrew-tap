@@ -1,26 +1,26 @@
 class Peep < Formula
   desc "Peep into your AI coding agents — terminal dashboard with pixel-art characters"
   homepage "https://github.com/jsleemaster/peep"
-  version "0.6.9"
+  version "0.6.10"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/jsleemaster/peep/releases/download/v#{version}/peep-macos-arm64.tar.gz"
-      sha256 "d4280d5dc98db88a075927bf5814a928e92ac937999c9544fd9d18d0287a2571"
+      sha256 "7732d951570bddae0c2a96ef9155893672a78dfc4a30958f7fdf2c906b230fce"
     else
       url "https://github.com/jsleemaster/peep/releases/download/v#{version}/peep-macos-intel.tar.gz"
-      sha256 "f449137b80e3154e27f583f4102b4c62eed8840187bd82d9093255c05fdbe59f"
+      sha256 "4998f75267cf0b2fbb5fae1bef4c32d9c7c88f2dfeeb333de23f4e60ec55a4ca"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/jsleemaster/peep/releases/download/v#{version}/peep-linux-arm64.tar.gz"
-      sha256 "a17b75584a6c59b36f4bbf664d1309e6ee9d0ca469d02d8d8f9cf5709dd4c0e1"
+      sha256 "cdd5002551027bca553d3346d79d30da2304bf92b364dfb07bc950153632379d"
     else
       url "https://github.com/jsleemaster/peep/releases/download/v#{version}/peep-linux-x86_64.tar.gz"
-      sha256 "3341323cb9eb0ab1f45a2bd2a7af3ec6857808c01144631ab3689d2fc2dfa176"
+      sha256 "1820f1ef028ac6e89fb6a52b3cbafcc367ba15dfe1da5fb84d9140de5c2b3217"
     end
   end
 
